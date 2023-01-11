@@ -1,0 +1,10 @@
+name: First Workslow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs_on: ubuntu-latest
+    steps:
+      - name: Print reading
+        run: echo "hello wolrd"
+      - name: Print good bye
+        run: echo " Bye saliya "
